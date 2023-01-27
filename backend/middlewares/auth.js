@@ -1,6 +1,6 @@
 import * as dotenv from 'dotenv';
 import jwt from 'jsonwebtoken';
-import UnauthorizedError from '../errors/UnauthorizedError';
+import UnauthorizedError from '../errors/UnauthorizedError.js';
 
 dotenv.config();
 

@@ -1,9 +1,9 @@
 import express from 'express';
-import rootRoutes from './rootRoutes';
-import usersRoutes from './users';
-import cardsRoutes from './cards';
-import checkAuth from '../middlewares/auth';
-import NotFoundError from '../errors/NotFoundError';
+import rootRoutes from './rootRoutes.js';
+import usersRoutes from './users.js';
+import cardsRoutes from './cards.js';
+import checkAuth from '../middlewares/auth.js';
+import NotFoundError from '../errors/NotFoundError.js';
 
 const routes = express.Router();
 

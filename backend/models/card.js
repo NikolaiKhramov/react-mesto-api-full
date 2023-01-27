@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { urlValidator } from '../utils/validation';
+import { urlValidator } from '../utils/validation.js';
 
 const cardSchema = new mongoose.Schema({
   name: {

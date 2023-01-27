@@ -2,10 +2,10 @@ import * as dotenv from 'dotenv';
 import { constants } from 'http2';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-import User from '../models/user';
-import BadRequestError from '../errors/BadRequestError';
-import NotFoundError from '../errors/NotFoundError';
-import ConflictError from '../errors/ConflctError';
+import User from '../models/user.js';
+import BadRequestError from '../errors/BadRequestError.js';
+import NotFoundError from '../errors/NotFoundError.js';
+import ConflictError from '../errors/ConflctError.js';
 
 dotenv.config();
 

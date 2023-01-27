@@ -1,6 +1,6 @@
 import express from 'express';
-import { createNewUser, login } from '../controllers/users';
-import { signUpDataValidation, signInDataValidation } from '../utils/validation';
+import { createNewUser, login } from '../controllers/users.js';
+import { signUpDataValidation, signInDataValidation } from '../utils/validation.js';
 
 const rootRoutes = express.Router();
 

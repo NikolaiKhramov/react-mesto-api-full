@@ -1,8 +1,8 @@
 import { constants } from 'http2';
-import Card from '../models/card';
-import BadRequestError from '../errors/BadRequestError';
-import NotFoundError from '../errors/NotFoundError';
-import ForbiddenError from '../errors/ForbiddenError';
+import Card from '../models/card.js';
+import BadRequestError from '../errors/BadRequestError.js';
+import NotFoundError from '../errors/NotFoundError.js';
+import ForbiddenError from '../errors/ForbiddenError.js';
 
 export const getAllCards = (req, res, next) => {
   Card.find({})

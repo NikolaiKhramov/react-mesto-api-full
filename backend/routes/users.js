@@ -1,8 +1,8 @@
 import express from 'express';
 import {
   getAllUsers, getUserById, getCurrentUser, updateUserInfo, updateUserAvatar,
-} from '../controllers/users';
-import { profileUpdateValidation, avatarUpdateValidation, userIdValidation } from '../utils/validation';
+} from '../controllers/users.js';
+import { profileUpdateValidation, avatarUpdateValidation, userIdValidation } from '../utils/validation.js';
 
 const usersRoutes = express.Router();
 

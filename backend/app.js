@@ -3,9 +3,9 @@ import * as dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import { errors } from 'celebrate';
 import cors from 'cors';
-import { requestLogger, errorLogger } from './middlewares/logger';
-import routes from './routes/index';
-import errorHandler from './middlewares/errorHandler';
+import { requestLogger, errorLogger } from './middlewares/logger.js';
+import routes from './routes/index.js';
+import errorHandler from './middlewares/errorHandler.js';
 
 dotenv.config();
 

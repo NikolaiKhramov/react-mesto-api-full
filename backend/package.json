@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "lint": "npx eslint .",
-    "start": "node --experimental-modules --es-module-specifier-resolution=node app.js",
-    "dev": "nodemon --experimental-modules --es-module-specifier-resolution=node app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
