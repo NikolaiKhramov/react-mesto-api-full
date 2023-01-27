@@ -1,0 +1,46 @@
+.place__name {
+  max-width: 219px;
+  margin: 0;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media (max-width: 916px) {
+  .place__name {
+    max-width: 160px;
+  }
+}
+
+@media (max-width: 768px)  {
+  .place__name {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 676px) {
+  .place__name {
+    max-width: 210px;
+  }
+}
+
+@media (max-width: 582px) {
+  .place__name {
+    max-width: 160px;
+  }
+}
+
+@media (max-width: 485px) {
+  .place__name {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__name {
+    max-width: 219px;
+  }
+}

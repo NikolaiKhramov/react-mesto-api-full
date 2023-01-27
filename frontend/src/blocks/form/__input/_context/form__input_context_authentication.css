@@ -1,0 +1,8 @@
+.form__input_context_authentication {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #000;
+  border-bottom: 1px solid rgba(204, 204, 204, 1);
+  color: #ccc;
+}

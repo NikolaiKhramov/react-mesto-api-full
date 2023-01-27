@@ -1,0 +1,13 @@
+.authentication__container {
+  width: 358px;
+  margin: 63px auto 0;
+}
+
+@media (max-width: 676px) {
+
+  .authentication__container {
+    width: calc(100% - 60px);
+    max-width: 358px;
+    margin: 40px auto 0;
+  }
+}

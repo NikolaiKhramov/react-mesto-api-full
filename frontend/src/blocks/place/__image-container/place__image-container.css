@@ -1,0 +1,8 @@
+.place__image-container {
+  width: 100%;
+  margin: 0;
+  padding-top: 100%;
+  background: no-repeat center/cover;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+}

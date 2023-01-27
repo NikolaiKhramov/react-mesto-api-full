@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 880px;
+  margin: 0 auto;
+  padding-bottom: 37px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+}
+
+@media (max-width: 1024px) {
+  .header {
+    width: calc(100% - 144px);
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    width: calc(100% - 72px);
+  }
+}
+
+@media (max-width: 590px) {
+  .header {
+    width: 100%;
+    padding: 0 30px 31px 30px;
+  }
+}

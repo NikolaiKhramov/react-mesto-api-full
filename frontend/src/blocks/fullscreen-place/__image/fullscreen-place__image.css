@@ -1,0 +1,6 @@
+.fullscreen-place__image {
+  width: 100%;
+  max-width: 75vw;
+  max-height: 75vh;
+  object-fit: cover;
+}

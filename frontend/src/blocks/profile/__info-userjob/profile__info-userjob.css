@@ -1,0 +1,26 @@
+.profile__info-userjob {
+  width: 100%;
+  margin: 10px 0 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media (max-width: 676px) {
+  .profile__info-userjob {
+    max-width: 336px;
+    margin: 8px 0 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .profile__info-userjob {
+    font-size: 14px;
+    line-height: 17px;
+    grid-area: userjob;
+  }
+}

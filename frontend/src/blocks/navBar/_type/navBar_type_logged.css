@@ -1,0 +1,10 @@
+.navBar_type_logged {
+  display: flex;
+}
+
+@media (max-width: 676px) {
+  .navBar_type_logged {
+    padding-top: 0;
+    flex-direction: column;
+  }
+}
