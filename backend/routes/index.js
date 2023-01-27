@@ -10,7 +10,7 @@ const routes = express.Router();
 routes.use('/', rootRoutes);
 routes.use('/users', checkAuth, usersRoutes);
 routes.use('/cards', checkAuth, cardsRoutes);
-routes.use((req, res, next) => {
+routes.use('/*', checkAuth, (req, res, next) => {
   next(new NotFoundError('Запрашиваемая страница не существует.'));
 });
 

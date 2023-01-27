@@ -4,6 +4,8 @@
     "no-underscore-dangle": [
       "error",
       {"allow": ["_id"]}
-    ]
+    ],
+    "import/extensions" : "off",
+    "no-console": "off"
   }
 }
